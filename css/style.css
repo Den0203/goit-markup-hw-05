@@ -450,11 +450,9 @@ img {
   display: flex;
   flex-direction: column;
   margin-left: 80px;
-}
-.modal-window-wrapper {
-  display: flex;
   gap: 24px;
 }
+
 .modal-window-address {
   font-weight: 500;
   line-height: 1.5;
@@ -463,41 +461,46 @@ img {
 }
 
 .modal-window-input {
-  border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
+  border: 1px solid #ffffff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
   padding-left: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  outline: none;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
 }
 .modal-window-input::placeholder {
-  color: hsl(0, 0%, 100%);
+  color: #ffffff;
 }
 .modal-window-btn {
-  border-radius: 4px;
-  padding-bottom: 8px;
-  padding-top: 8px;
-  width: 165px;
-  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  min-width: 165px;
+  height: 40px;
   gap: 8px;
   background: #4d5ae5;
-  color: #fff;
+  color: #ffffff;
   border: none;
+  cursor: pointer;
 }
 .modal-window-btn:hover {
   background: #404bbf;
 }
 .modal-window-icon {
-  width: 24px;
-  height: 24px;
   fill: currentColor;
+  margin-left: 16px;
 }
 .backdrop {
   display: none;
