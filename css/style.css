@@ -438,17 +438,18 @@ img {
 .footer-icon:focus {
   background-color: #31d0aa;
 }
-.modal-window {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  margin-left: 80px;
-}
+
 .modal-window-title {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
+}
+.modal-window {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
 }
 .modal-window-wrapper {
   display: flex;
@@ -499,7 +500,7 @@ img {
   fill: currentColor;
 }
 .backdrop {
-  /* display: none; */
+  display: none;
   background-color: rgba(46, 47, 66, 0.4);
   inset: 0;
   position: fixed;
