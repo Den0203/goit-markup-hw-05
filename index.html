@@ -475,22 +475,24 @@
         <form class="modal-window">
           <p class="modal-window-title">Subscribe</p>
           <div class="modal-window-wrapper">
-          <label class="modal-window-label" for="email-address">
-      <input
-        class="modal-window-input"
-        type="email"
-        name="email-address"
-        id="email-address"
-        placeholder="E-mail"
-      />
-    </label>
-          <button type="submit" class="modal-window-btn">Subscribe
-            <svg class="modal-window-icon">
-            <use href="./images/icons.svg#icon-send"></use>
-          </svg>
-          </button>
+            <label class="modal-window-label" for="email-address">
+              <input
+                class="modal-window-input"
+                type="email"
+                name="email-address"
+                id="email-address"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="modal-window-btn">
+              Subscribe
+              <svg class="modal-window-icon">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </div>
         </form>
+      </div>
     </footer>
     <div class="backdrop">
       <div class="modal">
@@ -528,7 +530,11 @@
                   id="phone"
                 />
                 <svg class="modal-form-icon">
-                  <use href="./images/icons.svg#icon-phone" width="13" height="13"></use>
+                  <use
+                    href="./images/icons.svg#icon-phone"
+                    width="13"
+                    height="13"
+                  ></use>
                 </svg>
               </div>
             </div>
@@ -555,13 +561,26 @@
                 placeholder="Text input"
               ></textarea>
               <label class="modal-form-agreevent" for="privat-policy">
-                <input class="checkbox visually-hidden" type="checkbox" name="privat-policy" id="privat-policy">
+                <input
+                  class="checkbox visually-hidden"
+                  type="checkbox"
+                  name="privat-policy"
+                  id="privat-policy"
+                />
                 <span class="modal-form-checkbox">
-                  <svg class="modal-form-checkbox-icon" width="10" height="8" >
+                  <svg class="modal-form-checkbox-icon" width="10" height="8">
                     <use href="./images/icons.svg#icon-checkup"></use>
                   </svg>
                 </span>
-                I accept the terms and conditions of the <a class="modal-form-agreevent-link" href="#" target="_blank" rel="noopener noreferrer"> Privacy Policy</a>
+                I accept the terms and conditions of the
+                <a
+                  class="modal-form-agreevent-link"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Privacy Policy</a
+                >
               </label>
               <button class="sbm-btn" type="submit">Send</button>
             </div>
